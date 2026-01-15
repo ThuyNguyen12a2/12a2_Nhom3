@@ -7,7 +7,7 @@
     color: darkred; !important;
 }
 .slogan {
-    background-color:#FFEEBCD;}
+    background-color: BlanchedAlmond;}
 .banner {
     text-align: center !important;
  	width: 100%;
@@ -73,7 +73,7 @@ table
 	padding: 1.5em;
 }
 footer {
-	background-color: lightgrey; 
+	background-color: Brown; 
 	margin: 1px; 
 	padding: 10px;
 }
@@ -85,3 +85,4 @@ a:hover{
     color: magenta;
 
 }
+
