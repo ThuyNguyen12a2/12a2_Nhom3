@@ -1,4 +1,5 @@
-.slogan {
+
+.banner{
     background: url("images/banner.png") no-repeat center center;
     background-size: cover; /*Hình ảnh có thể bị cắt để lấp đầy toàn bộ phần tử*/
     padding-top: 12rem;
@@ -6,7 +7,7 @@
     text-align: center !important;
     color: darkred; !important;
 }
-.banner {
+.slogan {
     text-align: center !important;
  	width: 100%;
     padding-right: 2rem;
@@ -83,6 +84,7 @@ a:hover{
     color: magenta;
 
 }
+
 
 
 
