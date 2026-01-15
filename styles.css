@@ -1,4 +1,3 @@
-
 .banner{
     background: url("images/banner.png") no-repeat center center;
     background-size: cover; /*Hình ảnh có thể bị cắt để lấp đầy toàn bộ phần tử*/
@@ -84,6 +83,7 @@ a:hover{
     color: magenta;
 
 }
+
 
 
 
