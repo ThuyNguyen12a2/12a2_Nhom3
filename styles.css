@@ -32,15 +32,15 @@
 }
 div#b3a:hover{
     font-size: 120%;
-    color: red;
+    color: #ffcc00;
 }
 div#b3b:hover{
     font-size: 120%;
-    color: red;
+    color: #ffcc00;
 }
 div#b3c:hover{
     font-size: 120%;
-    color: red;
+    color: #ffcc00;
 }
 table
 {
@@ -77,14 +77,17 @@ footer {
 	padding: 10px;
 }
 .link {
-	color: navy; 
+	color: #ff4d4d; 
 	text-align: left;
 }
 a:hover{
-    color: magenta;
+    color: #cc00000;
 
 }
-h1 {color: #ffff66;}
+a:visited { color:#cc0000;}
+h1 {color: #ffff99;}
+div{color: #ffff99;}
+
 
 
 
