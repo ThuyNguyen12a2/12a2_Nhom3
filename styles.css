@@ -81,14 +81,17 @@ footer {
 	text-align: left;
 }
 link :hover {color:#ffff99;
-			font-size:150%;}
+			font-size:120%;}
 link :visited {color:#ffff99;}
 a:hover{
-    font-size: 150%;
+    font-size: 120%;
 }
 a:visited {color: #ffcc00;}
 h1 {color: #ffff99;}
 div{color: #ffff99;}
+p{color: #101010;}
+h2,h3,h4,h5{color:#b55555;}
+
 
 
 
