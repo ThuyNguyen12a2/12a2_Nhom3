@@ -77,16 +77,16 @@ footer {
 	padding: 10px;
 }
 .link {
-	color: #ff4d4d; 
+	color: #FFFF99; 
 	text-align: left;
 }
 a:hover{
     color: #cc00000;
-
 }
 a:visited { color:#cc0000;}
 h1 {color: #ffff99;}
 div{color: #ffff99;}
+
 
 
 
