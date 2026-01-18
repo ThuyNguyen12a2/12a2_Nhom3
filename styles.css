@@ -84,11 +84,12 @@ link :hover {color:#ffff99;
 			font-size:150%;}
 link :visited {color:#ffff99;}
 a:hover{
-    color: #cc0000;
+    font-size: 150%;
 }
 a:visited {color: #ffcc00;}
 h1 {color: #ffff99;}
 div{color: #ffff99;}
+
 
 
 
