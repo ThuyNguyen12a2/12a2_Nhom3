@@ -80,11 +80,15 @@ footer {
 	color: #FFFF99; 
 	text-align: left;
 }
+link :hover {color:#ffff99;}
+link :visited {color:#ffff99;}
 a:hover{
-    color: #cc00000;
+    color: #cc0000;
 }
+a:visited {color: #cc0000;}
 h1 {color: #ffff99;}
 div{color: #ffff99;}
+
 
 
 
