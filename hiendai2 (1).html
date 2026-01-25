@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Việt Nam và Thế giới trong năm mới</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Be+Vietnam+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --red:#b11226;
+      --gold:#d4af37;
+      --cream:#fff8ee;
+      --dark:#2b2b2b;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Be Vietnam Pro',sans-serif;
+      background:var(--cream);
+      color:var(--dark);
+      line-height:1.7;
+    }
+    header{
+      background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('image/chuctet.jpg') center/cover no-repeat;
+      color:#fff;
+      text-align:center;
+      padding:90px 20px 60px;
+    }
+    header h1{
+      font-family:'Playfair Display',serif;
+      font-size:2.6rem;
+      margin:0;
+      letter-spacing:2px;
+    }
+    .slogan{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+      max-width:1000px;
+      margin:50px auto 0;
+    }
+    .block{
+      background:rgba(255,255,255,.92);
+      color:var(--dark);
+      border-radius:16px;
+      padding:25px;
+      box-shadow:0 10px 30px rgba(0,0,0,.15);
+      transition:.3s;
+    }
+    .block:hover{transform:translateY(-6px)}
+    .block h2{color:var(--red);margin-top:0}
+    main{
+      max-width:1000px;
+      margin:70px auto;
+      padding:0 20px;
+    }
+    h3{
+      font-family:'Playfair Display',serif;
+      color:var(--red);
+      font-size:1.6rem;
+      margin-top:60px;
+    }
+    .section{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+      align-items:center;
+      margin-top:40px;
+    }
+    .section:nth-child(even){grid-template-columns:1fr 1fr}
+    .section img{
+      width:100%;
+      border-radius:18px;
+      box-shadow:0 15px 35px rgba(0,0,0,.2);
+    }
+    @media(max-width:768px){
+      .section{grid-template-columns:1fr}
+    }
+    footer{
+      background:var(--dark);
+      color:#eee;
+      padding:50px 20px;
+      margin-top:80px;
+    }
+    footer .row{
+      max-width:1000px;
+      margin:auto;
+      display:flex;
+      flex-wrap:wrap;
+      gap:30px;
+    }
+    footer a{color:var(--gold);text-decoration:none}
+  </style>
+</head>
+<body>
+<header>
+  <h1>VIỆT NAM VÀ THẾ GIỚI<br>TRONG NĂM MỚI</h1>
+  <div class="slogan">
+    <div class="block">
+      <h2>Dấu ấn thời gian</h2>
+      <p>Nguồn gốc và phong tục</p>
+    </div>
+    <div class="block">
+      <h2>Bếp xuân ba miền</h2>
+      <p>Món ăn và ẩm thực Việt Nam</p>
+    </div>
+    <div class="block">
+      <h2>Thế giới đón Tết</h2>
+      <p>Cách thế giới chào mừng mùa xuân</p>
+    </div>
+  </div>
+</header>
+<main>
+  <p>Trong dịp Tết Nguyên đán, người Việt có rất nhiều phong tục truyền thống nhằm cầu mong một năm mới an lành, may mắn, an khang, thịnh vượng.</p>
+  <div class="section">
+    <div>
+      <h3>Đi lễ chùa đầu năm</h3>
+      <p>Đi lễ chùa đầu năm là nét đẹp tâm linh của người Việt. Người người, nhà nhà đi lễ chùa vừa là để thể hiện lòng kính đối với đức Phật, tổ tiên vừa là để cầu mong một năm mới với nhiều may mắn, tài lộc, bình an cho cả nhà.</p>
+    </div>
+    <img src="image/chua.jpg" alt="Đi lễ chùa đầu năm">
+  </div>
+  <div class="section">
+    <img src="image/chuctet.jpg" alt="Chúc Tết và mừng tuổi">
+    <div>
+      <h3>Chúc Tết và mừng tuổi</h3>
+      <p>Phong tục chúc Tết, mừng tuổi thể hiện sự gắn kết gia đình, gửi gắm những lời chúc tốt đẹp đầu năm. Tiền mừng tuổi không quan trọng nhiều ít mà mang ý nghĩa may mắn, khởi đầu thuận lợi cho năm mới.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div>
+      <h3>Tục xin chữ đầu xuân</h3>
+      <p>Xin chữ đầu năm là mong cầu tri thức, đạo đức và thành công. Mỗi nét chữ mang theo hy vọng về một năm mới an lành, vạn sự như ý.</p>
+    </div>
+    <img src="image/chu.jpg" alt="Tục xin chữ đầu năm">
+  </div>
+  <h3>Phong tục đón năm mới trên thế giới</h3>
+  <div class="section">
+    <div>
+      <p>Người dân Brazil mặc đồ trắng, nhảy qua 7 con sóng và thả hoa xuống biển để cầu bình an, thịnh vượng trong năm mới.</p>
+    </div>
+    <img src="image/song.jpg" alt="Brazil đón năm mới">
+  </div>
+  <div class="section">
+    <img src="image/nho2.jpg" alt="Tây Ban Nha ăn nho ngày đầu năm">
+    <div>
+      <p>Người Tây Ban Nha ăn 12 trái nho vào thời khắc giao thừa, tượng trưng cho 12 tháng may mắn trong năm mới.</p>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="row">
+    <div style="flex:2">
+      <p>Liên lạc:</p>
+      <ul>
+        <li>Điện thoại: 0987654321</li>
+        <li>Website: <a href="index2.html">Những điều thú vị về Tết</a></li>
+        <li>Chia sẻ kỉ niệm: <a href="dangki2.html">Hãy chia sẻ kỉ niệm của bạn</a></li>
+        <li>Bạn muốn quay về giao diện trước? <a href="index.html">Hãy nhấn vào đây</a></li>
+      </ul>
+    </div>
+    <div style="flex:1">
+      <p>Xem chi tiết:</p>
+      <ul>
+        <li><a href="phongtuc2.html">Các phong tục truyền thống</a></li>
+        <li><a href="hiendai2.html">Hoạt động Tết hiện đại</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
