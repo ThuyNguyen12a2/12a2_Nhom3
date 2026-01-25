@@ -59,6 +59,7 @@ header h1{
   padding:25px;
   box-shadow:0 10px 30px rgba(0,0,0,.15);
   transition:transform .3s ease;
+  color:#ff8c00;
 }
 
 .block:hover{ /* hiệu ứng hover */
