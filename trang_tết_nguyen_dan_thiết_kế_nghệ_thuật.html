@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chia sẻ kỉ niệm ngày Tết</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Be+Vietnam+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --red:#b11226;
+      --gold:#d4af37;
+      --cream:#fff8ee;
+      --dark:#2b2b2b;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Be Vietnam Pro',sans-serif;
+      background:linear-gradient(rgba(255,248,238,.95),rgba(255,248,238,.95)),url('image/chuctet.jpg') center/cover fixed no-repeat;
+      color:var(--dark);
+      line-height:1.7;
+    }
+    .container{
+      max-width:900px;
+      margin:80px auto;
+      padding:0 20px;
+    }
+    .form-card{
+      background:#fff;
+      border-radius:22px;
+      padding:40px;
+      box-shadow:0 20px 40px rgba(0,0,0,.18);
+    }
+    h1{
+      font-family:'Playfair Display',serif;
+      color:var(--red);
+      text-align:center;
+      margin-bottom:10px;
+    }
+    h2{
+      font-family:'Playfair Display',serif;
+      color:var(--gold);
+      text-align:center;
+      margin-top:0;
+      font-size:1.2rem;
+    }
+    table{
+      width:100%;
+      border-spacing:20px;
+      margin-top:30px;
+    }
+    label{font-weight:500}
+    input, textarea{
+      width:100%;
+      padding:10px 14px;
+      border-radius:12px;
+      border:1px solid #ccc;
+      font-family:inherit;
+    }
+    textarea{resize:vertical}
+    .radio-group label{margin-right:15px;font-weight:400}
+    .actions{
+      text-align:center;
+      padding-top:20px;
+    }
+    button{
+      background:var(--red);
+      color:#fff;
+      border:none;
+      padding:12px 28px;
+      border-radius:30px;
+      font-size:1rem;
+      cursor:pointer;
+      transition:.3s;
+    }
+    button:hover{background:#8f0f1f}
+    .back{
+      display:block;
+      margin-top:20px;
+      text-align:center;
+      color:var(--dark);
+      text-decoration:none;
+      font-weight:500;
+    }
+    .back:hover{color:var(--red)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-card">
+      <h1>Chia sẻ kỉ niệm ngày Tết</h1>
+      <h2>Gửi tâm tư – Thêm yêu thương</h2>
+      <!-- Form chỉ mang tính trình bày, không cần máy chủ xử lý -->
+      <form onsubmit="return false;">
+        <table>
+          <tr>
+            <td><label for="hoten">Họ và tên</label></td>
+            <td><input id="hoten" type="text" placeholder="Nhập họ và tên"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input id="email" type="email" placeholder="example@email.com"></td>
+          </tr>
+          <tr>
+            <td><label for="ngaysinh">Ngày sinh</label></td>
+            <td><input id="ngaysinh" type="date"></td>
+          </tr>
+          <tr>
+            <td><label>Giới tính</label></td>
+            <td class="radio-group">
+              <input id="nam" type="radio" name="gioitinh"><label for="nam">Nam</label>
+              <input id="nu" type="radio" name="gioitinh"><label for="nu">Nữ</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="diachi">Địa chỉ</label></td>
+            <td><textarea id="diachi" rows="3" placeholder="Nơi bạn đang sinh sống"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="kiniem">Kỉ niệm muốn chia sẻ</label></td>
+            <td><textarea id="kiniem" rows="4" placeholder="Một kỉ niệm đáng nhớ trong năm qua"></textarea></td>
+          </tr>
+        </table>
+        <div class="actions">
+          <button type="submit">Gửi chia sẻ</button>
+          <a href="index.html" class="back">← Quay về trang chủ</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
