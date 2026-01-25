@@ -51,7 +51,7 @@ header h1{
   margin:50px auto 0;
 }
 
-/* block: mỗi ô trong slogan */
+/* block: mỗi ô trong slogan (phần nhấn vào và có hiệu ứng) */
 .block{
   background:rgba(255,255,255,.92);
   color:var(--dark);
@@ -127,7 +127,7 @@ td{
 }
 
 .table-img img:hover{
-  transform:scale(1.08); /* phóng to khi hover */
+  transform:scale(1.08); /* phóng to khi đưa chuột vào */
 }
 
 /* ===== 7. FORM (trang đăng ký) ===== */
